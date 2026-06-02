@@ -30,7 +30,7 @@ import { JwtAuthGuard } from './auth/guards/jwt-auth.guard';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'jnXXWn0owDaZYhM3DKjoJmFzpOxgq2tk@dpg-d8fj00mgvqtc739cmlrg-a',
+      host: 'dpg-d8fj00mgvqtc739cmlrg-a.oregon-postgres.render.com',
       port: 5432,
       username: 'postgres',
       password: 'jnXXWn0owDaZYhM3DKjoJmFzpOxgq2tk',
