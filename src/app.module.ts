@@ -30,10 +30,10 @@ import { JwtAuthGuard } from './auth/guards/jwt-auth.guard';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
+      host: 'jnXXWn0owDaZYhM3DKjoJmFzpOxgq2tk@dpg-d8fj00mgvqtc739cmlrg-a',
       port: 5432,
       username: 'postgres',
-      password: 'admin',
+      password: 'jnXXWn0owDaZYhM3DKjoJmFzpOxgq2tk',
       database: 'marinhodb',
       entities: [
         User,
